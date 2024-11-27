@@ -8,9 +8,7 @@ class SingleBook extends Component {
   render() {
     return (
       <Container>
-        <Card
-          className={this.state.selected ? "border-danger" : "border-light"}
-        >
+        <Card className={this.state.selected ? "border-danger" : ""}>
           <Card.Img
             variant="top"
             src={this.props.book.img}
